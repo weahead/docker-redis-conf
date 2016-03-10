@@ -1,0 +1,5 @@
+[template]
+src = "redis.tmpl"
+dest = "/usr/local/etc/redis/redis.conf"
+keys = [
+]
