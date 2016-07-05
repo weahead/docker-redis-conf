@@ -40,3 +40,14 @@ client-output-buffer-limit slave 256mb 64mb 60
 client-output-buffer-limit pubsub 32mb 8mb 60
 hz 10
 aof-rewrite-incremental-fsync yes
+protected-mode no
+tcp-backlog 511
+supervised no
+pidfile /var/run/redis_6379.pid
+logfile ""
+lua-time-limit 5000
+slowlog-log-slower-than 10000
+latency-monitor-threshold 0
+list-max-ziplist-size -2
+list-compress-depth 0
+hll-sparse-max-bytes 3000
